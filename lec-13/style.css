@@ -1,0 +1,45 @@
+div p{
+    background-color: #3f1b1b;
+    color: antiquewhite;
+    font-family: poppins;
+}
+
+h1{
+    border: px solid black;
+    background-color: rgb(56, 122, 153);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: poppins;
+}
+
+div>p{
+    background-color: #b06bff;
+    color: rgb(9, 3, 24);
+    font-family: poppins;
+}
+
+h2{
+    background-color: burlywood;
+    border: px;
+    text-align: center;
+    font-family: poppins;
+
+}
+h1+p{
+    background-color: #520606;
+    color: #b06bff;
+    font-family: poppins;
+}
+body{
+    background-color: #c2bcbc;
+    border: 1cqw solid;
+}
+
+h1~p{
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    background-color: #fff;
+    color: #520606;
+    font-family: poppins;
+
+}
