@@ -1,0 +1,49 @@
+a:visited{
+    color: red;
+   
+}
+
+a:active{
+    color: blue;
+   
+}
+
+input:focus{
+    color: brown;
+    background-color: #1a6b33;
+}  
+
+body{
+    background-color: rgb(128, 122, 111);
+}
+
+a{
+    text-align: center;
+    color: rgb(3, 3, 29);
+    text-decoration: double;
+}
+ul>li{
+    color: #c90054;
+}
+ul>li:first-child{
+    color: #79112b;
+}
+
+ul>li:last-child{
+    color: aqua;
+}
+ul>li:nth-child(2n){
+    color: rgb(127, 182, 0);
+}
+ul>li:nth-child(2n+5){
+    color: #5e1f7a;
+}
+
+div::before{
+   content:'\1F5A4';
+   
+}
+
+::before{
+    background-color: #79112b;
+}
